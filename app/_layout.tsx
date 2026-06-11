@@ -1,24 +1,24 @@
-import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
 import { Stack } from 'expo-router';
-import { StatusBar } from 'expo-status-bar';
-import 'react-native-reanimated';
 
-import { useColorScheme } from '@/hooks/use-color-scheme';
-
-export const unstable_settings = {
-  anchor: '(tabs)',
+type RootStackParamList = {
+  telainicial: undefined;
+  telacriacao: undefined;
+  telaseuemail: undefined;
+  telarecuperacao: undefined;
+  telahome: undefined;
 };
 
 export default function RootLayout() {
-  const colorScheme = useColorScheme();
-
   return (
-    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-      <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="modal" options={{ presentation: 'modal', title: 'Modal' }} />
-      </Stack>
-      <StatusBar style="auto" />
-    </ThemeProvider>
+    <Stack
+      screenOptions={{ headerShown: false }}
+      initialRouteName="telainicial"
+    >
+      <Stack.Screen name="telainicial" />
+      <Stack.Screen name="telacriacao" />
+      <Stack.Screen name="telaseuemail" />
+      <Stack.Screen name="telarecuperacao" />
+      <Stack.Screen name="telahome" />
+    </Stack>
   );
 }
