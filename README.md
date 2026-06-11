@@ -1,50 +1,75 @@
-# Welcome to your Expo app 👋
+# RouteFlow
+---
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Protótipo no Figma
+https://www.figma.com/design/55CTBA6CdNQBnnocZybUaW/Sem-t%C3%ADtulo?node-id=0-1&t=Vl0iyemBz0fFV8Rv-1
+---
+## Repositório GitHub
+https://github.com/egpb1-cyber/RouteFlow.git
+---
 
-## Get started
+# Sobre o Projeto
 
-1. Install dependencies
+O RouteFlow é um aplicativo inteligente que utiliza Inteligência Artificial para prever filas e níveis de movimentação em diferentes locais do dia a dia, como mercados, academias, hospitais, restaurantes e transporte público.
+Através da análise de dados em tempo real, localização dos usuários, histórico de movimentação e padrões de fluxo, o sistema fornece previsões sobre os melhores horários para frequentar determinados locais.
+O objetivo principal é ajudar os usuários a economizar tempo, evitar superlotação e planejar melhor suas rotinas, além de fornecer informações úteis para empresas e estabelecimentos melhorarem seus serviços.
+---
 
-   ```bash
-   npm install
-   ```
+# Status do Projeto
+**Em desenvolvimento**
+Atualmente o projeto encontra-se em fase de implementação das telas e integração das funcionalidades previstas no protótipo.
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+# Funcionalidades
+## Consulta de locais próximos.
+## Previsão de filas utilizando Inteligência Artificial.
+## Exibição do nível de movimentação em tempo real.
+## Recomendação dos melhores horários para visitar locais.
+## Visualização de estabelecimentos por categoria.
+## Alertas de superlotação.
+## Histórico de movimentação dos locais.
+## Cadastro e autenticação de usuários.
+---
 
-In the output, you'll find options to open the app in a
+# Implementações do Aplicativo
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Tela Inicial
+## Tela de Login
+## Tela de Cadastro
+## Tela Principal
+## Tela de Perfil
+#  Acesso ao Projeto
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+# Tecnologias Utilizadas
 
-## Get a fresh project
+* React Native
+* Expo
+* TypeScript
+* React Navigation
+* JavaScript
+* Git
+* GitHub
+* Figma
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+# Pessoas Desenvolvedoras do Projeto
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+* Enzo Gabriel Pimentel Barbosa
+* Lucas Gabriel Pontes de Oliveira e Silva Lima
+* Lucas Rafael Neves Rego
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+# Pessoas Contribuidoras
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Atualmente os contribuidores do projeto são os próprios integrantes da equipe de desenvolvimento.
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+# Licença
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Este projeto foi desenvolvido para fins acadêmicos como atividade da disciplina de Programação Móvel.
+Todos os direitos reservados aos autores.
