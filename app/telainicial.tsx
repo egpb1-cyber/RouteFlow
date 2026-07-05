@@ -4,6 +4,7 @@ import { useRouter } from 'expo-router';
 import LoginCreateToggle from '../components/LoginCreateToggle';
 import InputField from '../components/InputField';
 import PrimaryButton from '../components/PrimaryButton';
+import { Rectangle8 } from './Rectangle8';
 
 export default function TelaInicial() {
   const router = useRouter();
@@ -23,6 +24,10 @@ export default function TelaInicial() {
       style={styles.container}
       behavior={Platform.OS === 'ios' ? 'padding' : undefined}
     >
+      <View style={styles.decorWrapper} pointerEvents="none">
+        <Rectangle8 width="100%" height={260} />
+      </View>
+
       <ScrollView contentContainerStyle={styles.scroll}>
         <View style={styles.avatarWrapper}>
           <Image
@@ -61,10 +66,19 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#0E2A3A',
   },
+  decorWrapper: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    zIndex: 0,
+  },
   scroll: {
     flexGrow: 1,
     justifyContent: 'center',
     paddingHorizontal: 30,
+    paddingTop: 140,
+    zIndex: 1,
   },
   avatarWrapper: {
     alignItems: 'center',
